@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Translator</title>
+        <link rel="stylesheet" href="https://codepen.io/gymratpacks/pen/VKzBEp#0">
+        <link href='https://fonts.googleapis.com/css?family=Nunito:400,300' rel='stylesheet' type='text/css'>
+        <link href="{{ url_for('static', path='/style1.css') }}" rel="stylesheet">
+    </head>
+    <body>
+      <div class="row">
+    <div class="col-md-12">
+      <form action="" method="post">
+        <h1> TRANSLATOR </h1>
+        <fieldset>
+          
+          <legend> Type a text to translate</legend>
+        
+          <label for="name">Text name:</label>
+          <input type="text" id="name" name="name">
+          <label for="text"><h2><b> {{text}}</b></h2></label>
+         </fieldset>
+       
+        <button type="submit">Submit</button>
+        
+       </form>
+        </div>
+      </div>
+      
+    </body>
+</html>
