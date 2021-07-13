@@ -1,4 +1,4 @@
-Description: This is a web app that takes input as an thanglish word and translate to english
+Description: This is a web app that takes input as an tamil word and translate to english
 
 Status: Completed.
 <html>
